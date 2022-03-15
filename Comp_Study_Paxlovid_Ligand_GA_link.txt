@@ -1,0 +1,27 @@
+
+This is a link to a dropbox folder that contains work and paper of 
+Chalmers G, Computational Study of Paxlovid in Ligand GA, 10.26434/chemrxiv-2022-p2phq
+Submitted to Journal of Computer-Aided Molecular Design.
+
+
+Calculations, docking results files, figures, and the paper are 
+located at https://www.dropbox.com/sh/3vuza1s0gjmy1eo/AADLXPPe2Ve-N3RjMH3GoH5fa?dl=0     
+
+Dropbox instead of GitHub is used because there is more space available for me in the Dropbox account.  
+
+The Ligand GA software package is located at  https://github.com/GordonChalmers 
+
+There are 3 directories:  calculations, figures, and proteins.  
+The figures are made from mol2 files listed in READ_ME_figures.txt.  
+The mol2 files are available in the calculations folder.  For convenience 
+the mol2 files used in the figures are also in a sub-directory mol2_files_fig 
+in the figures directory.  It is encouraged to look at the figures from the 
+files in a molecular viewer.  The calculations folder contains docking results 
+from the 2 steps in post-processing.  These sub-directories can also be used in 
+grepping for various reasons in molecular analysis.  The files in using 
+Ligand GA, .mat, prep, various other, are not in the download.  These are 
+available upon request, and could be used to track evolution of individual 
+molecules iteration by iteration (reconstruction of final molecules by process 
+of mutation and crossover).  These files also have the results non-isomeric 
+molecules with scores < 79 which didn’t screen into the 76 non-isomeric 
+molecules used here.
